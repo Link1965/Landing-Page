@@ -1,6 +1,14 @@
-.Karma-page {
+.top-navigation {
 	background-color: white;
-	border-top-color: white;
-	border-top: 2px;
 }
-
+.list {
+	list-style: none;
+	display: inline; 
+	float: right;
+}
+.top-navigation > .header {
+	width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+}
