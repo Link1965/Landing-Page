@@ -1,6 +1,7 @@
-body {
-    background-color: LightGray;
+.Karma-page {
+	background-color: white;
+	border-top-color: white;
+	border-top: 2px;
+
 }
-div {
-    border: 1px solid Chocolate;
-}
+
