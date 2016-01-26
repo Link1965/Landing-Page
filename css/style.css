@@ -2,8 +2,24 @@
 	background-color: white;
 }
 
-.top-navigation > .header {
-	width: 970px;
-    height: 70px;
-    margin: 0 auto;
+.top-navigation > .content {
+	height: 4.375rem;
+	margin: 0 auto;
 }
+
+.content {
+   width: 46rem;
+   padding:0 0.938em;
+   
+}
+.top-navigation .logo {
+    height: 4.375rem;
+}
+.top-navigation .links {
+	font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+    }
