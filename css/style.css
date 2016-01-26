@@ -1,14 +1,9 @@
 .top-navigation {
 	background-color: white;
 }
-.list {
-	list-style: none;
-	display: inline; 
-	float: right;
-}
+
 .top-navigation > .header {
 	width: 970px;
     height: 70px;
     margin: 0 auto;
-}
 }
