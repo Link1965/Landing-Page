@@ -10,29 +10,38 @@ html {
 }
 
 .top-navigation > .content {
-	width: 970px;
-	height: 70px;
+	max-width: 60em;
+	height: 4.375em;
 	margin: 0 auto;
+	padding: 0 0.938rem;
 }
+
 
 .top-navigation .links {
 	list-style: none;
 	float: right;
 	color: #838994;
-    font-size: 16px;
-    margin-top: 27px;
+    font-size: 1.050em;
+    margin-top: 1.688em;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .top-navigation .links li {
 	display: inline;
-	margin-left: 25px;
+	margin-left: 1.563em;
 }
 .top-navigation .logo {
-	height: 70px;
+	height: 4.375em;
 }
 
 .top-navigation .links .active {
 	color: #4c5058;
     font-weight: 500;
+    margin-right: 0.3em;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
