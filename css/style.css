@@ -10,10 +10,10 @@ html {
 }
 
 .top-navigation > .content {
-	max-width: 60em;
+	width: 58.124em;
 	height: 4.375em;
 	margin: 0 auto;
-	padding: 0 0.938rem;
+	padding: 0 0.938em;
 }
 
 
@@ -24,6 +24,8 @@ html {
     font-size: 1.050em;
     margin-top: 1.688em;
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 0em;
 
 }
 
