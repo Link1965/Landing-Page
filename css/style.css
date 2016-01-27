@@ -1,49 +1,60 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 .top-navigation {
-	background: white;
+  background: white;
 }
 
 .top-navigation > .content {
-	width: 58.124em;
-	height: 4.375em;
-	margin: 0 auto;
-	padding: 0 0.938em;
+  width: 58.124em;
+  height: 4.375em;
+  margin: 0 auto;
+  padding: 0 0.938em;
 }
 
-
 .top-navigation .links {
-	list-style: none;
-	float: right;
-	color: #838994;
-    font-size: 1.050em;
-    margin-top: 1.688em;
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    padding-left: 0em;
-
+  list-style: none;
+  float: right;
+  color: #838994;
+  font-size: 1.050em;
+  margin-top: 1.688em;
+  margin-right: 2em;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 0em;
 }
 
 .top-navigation .links li {
-	display: inline;
-	margin-left: 1.563em;
+  display: inline;
+  margin-left: 1.563em;
 }
+
 .top-navigation .logo {
-	height: 4.375em;
+  height: 4.375em;
+  margin-left: 1em;
 }
 
 .top-navigation .links .active {
-	color: #4c5058;
-    font-weight: 500;
-    margin-right: 0.3em;
+  color: #4c5058;
+  font-weight: 500;
+  margin-right: 0.3em;
 }
 
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
+
+.introduction {
+    background-image: url('../Images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
