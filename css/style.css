@@ -4,17 +4,21 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+
 }
+
 
 .top-navigation {
   background: white;
+
 }
 
 .top-navigation > .content {
-  width: 58.124em;
-  height: 4.375em;
+  width: 73rem;
+  height: 3.5rem;
   margin: 0 auto;
   padding: 0 0.938em;
+
 }
 
 .top-navigation .links {
@@ -23,20 +27,22 @@ html {
   color: #838994;
   font-size: 1.050em;
   margin-top: 1.688em;
-  margin-right: 2em;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding-left: 0em;
+  padding-left: 0em; 
+  margin-right: 0.9em;
 }
 
 .top-navigation .links li {
   display: inline;
   margin-left: 1.563em;
+
 }
 
 .top-navigation .logo {
-  height: 4.375em;
-  margin-left: 1em;
+  height: 3.5rem;
+  margin-top: 0.6em;
+  margin-left: 0.5em;
 }
 
 .top-navigation .links .active {
@@ -58,3 +64,23 @@ html {
     height: 45.938rem;
 }
 
+.introduction > .content {
+    text-align: center;
+}
+
+.introduction h1,
+.introduction h3 {
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   font-weight: 300;
+}
+
+.introduction h1 {
+    font-size: 3.125rem;
+}
+
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
