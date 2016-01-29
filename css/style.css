@@ -7,7 +7,6 @@ html {
 
 }
 
-
 .top-navigation {
   background: white;
   width: 100%;
@@ -70,6 +69,7 @@ html {
 .introduction > .content {
     text-align: center;
     overflow: auto;
+    margin-top: 170px;
 }
 
 .introduction h1,
