@@ -4,13 +4,11 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-
 }
 
 .top-navigation {
   background: white;
   width: 100%;
-
 }
 
 .top-navigation > .content {
@@ -18,7 +16,6 @@ html {
   height: 3em;
   margin: 0 auto;
   padding: 0 0.938em;
-
 }
 
 .top-navigation .links {
@@ -36,7 +33,6 @@ html {
 .top-navigation .links li {
   display: inline;
   margin-left: 1.563em;
-
 }
 
 .top-navigation .logo {
@@ -77,8 +73,7 @@ html {
    color: white;
    font-family: 'Roboto', sans-serif;
    -webkit-font-smoothing: antialiased;
-   font-weight: 300;
-  
+   font-weight: 300;  
 }
 
 .introduction h1 {
@@ -108,8 +103,6 @@ button:hover {
     cursor: pointer;
 }
 
-
-
 .product-description {
     margin: 0 auto;
     text-align: center;
@@ -134,7 +127,6 @@ button:hover {
    -webkit-font-smoothing: antialiased;
 }
 
-
 .product-description h3 {
     font-size: 1.5rem;
     font-weight: 200;
@@ -149,7 +141,6 @@ button:hover {
 .refill {
     padding-left: 1em;
 }
-
 
 .product-description .content {
     margin-top: 8.5rem;
@@ -177,9 +168,7 @@ hr {
     border-top: 1px solid #eaebec;
     margin: 0 auto;
     max-width: 75%;
-
 }
-
 
 .media-links li {
     display: inline-block;
@@ -191,17 +180,16 @@ hr {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
-
 }
 
-.media-links .twitter {
+.twitter {
     color: #55acee;
 }
 
-.media-links .facebook {
+.facebook {
     color: #4c66a4;
 }
 
-.media-links .instagram {
+.instagram {
     color: #3f729b;
 }
