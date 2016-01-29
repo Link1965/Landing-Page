@@ -105,7 +105,7 @@ button {
 button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
-    cursor: hand;
+    cursor: pointer;
 }
 
 
@@ -114,7 +114,7 @@ button:hover {
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .devices {
@@ -154,13 +154,22 @@ button:hover {
 .product-description .content {
     margin-top: 8.5rem;
     padding: none;
+    text-align: center;
 }
 
 .media-links {
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    padding-bottom: 5rem;
+    height: 15em;
+}
+
+.media-links > .content h5 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
 }
 
 hr {
@@ -168,16 +177,31 @@ hr {
     border-top: 1px solid #eaebec;
     margin: 0 auto;
     max-width: 75%;
-}
-
-.media-links > .content {
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    padding-bottom: 5rem;
 
 }
+
 
 .media-links li {
     display: inline-block;
+    cursor: pointer;
+    border-radius: 3rem;
+    width: 3.0rem;
+    height: 3.0rem;
+    margin: 0.5em 0.5em;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+
+}
+
+.media-links .twitter {
+    color: #55acee;
+}
+
+.media-links .facebook {
+    color: #4c66a4;
+}
+
+.media-links .instagram {
+    color: #3f729b;
 }
