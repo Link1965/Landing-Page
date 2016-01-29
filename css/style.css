@@ -87,7 +87,7 @@ html {
 }
 
 .introduction h3 {
-    margin-top: 1.25rem;
+    margin-top: 1.75rem;
     font-size: 1.563rem;
 }
 
@@ -123,26 +123,37 @@ button:hover {
 
 .devices li {
     display: inline-block;
-    font-size: 1.563rem;
-    margin: 2.5rem 0px 1.875rem;
-    max-width: 30%;
-    text-align: center;
+    font-size: 1.25rem;
+    margin: 2.5rem 1.5rem 1.875rem;
 }
 
 .product-description h2 {
     font-size: 2.75rem;
-    margin: 1.625rem 1rem 3.125rem;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
    -webkit-font-smoothing: antialiased;
 }
+
+
 .product-description h3 {
-    font-size: 1.75rem;
-    margin: 1.625rem 1rem 0;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: 200;
     font-family: 'Roboto', sans-serif;
    -webkit-font-smoothing: antialiased;
 }
+
 .content > .devices {
-    padding-bottom: 5rem;
+    margin-right: 5.5rem;
+}
+
+.refill {
+    padding-left: 1em;
+
+}
+
+
+.product-description .content {
+    margin-top: 8.5rem;
+    padding: none;
+
 }
