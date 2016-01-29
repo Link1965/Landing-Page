@@ -107,3 +107,42 @@ button:hover {
     border-color: #cf3d0e;
     cursor: hand;
 }
+
+
+
+.product-description {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.devices {
+    list-style: none;
+}
+
+.devices li {
+    display: inline-block;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    max-width: 30%;
+    text-align: center;
+}
+
+.product-description h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 1rem 3.125rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
+}
+.product-description h3 {
+    font-size: 1.75rem;
+    margin: 1.625rem 1rem 0;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
+}
+.content > .devices {
+    padding-bottom: 5rem;
+}
