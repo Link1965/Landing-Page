@@ -148,12 +148,36 @@ button:hover {
 
 .refill {
     padding-left: 1em;
-
 }
 
 
 .product-description .content {
     margin-top: 8.5rem;
     padding: none;
+}
 
+.media-links {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.media-links > .content {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 5rem;
+
+}
+
+.media-links li {
+    display: inline-block;
 }
