@@ -152,7 +152,7 @@ button:hover {
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    height: 15em;
+    height: 12em;
 }
 
 .media-links > .content h5 {
@@ -176,7 +176,7 @@ hr {
     border-radius: 3rem;
     width: 3.0rem;
     height: 3.0rem;
-    margin: 0.5em 0.5em;
+    margin: 0.5em 2em 0.5em 0;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
@@ -192,4 +192,13 @@ hr {
 
 .instagram {
     color: #3f729b;
+}
+.copyright {
+    padding-bottom: 100px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #778899;
+    font-size: 16px;
 }
