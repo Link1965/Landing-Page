@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 500px) {
 
 
 .top-navigation {
